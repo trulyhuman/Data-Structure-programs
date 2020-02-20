@@ -17,7 +17,7 @@ class node{
 //******************************************************************************************************************************//
 
 //Function for Displaying the linked list
-    void display(node* head,int size)// head is passed as reference thats why it is written with double pointer
+    void display(node* head,int size)
     {
         node* temp=NULL; // Temporary variable to store head address
         temp=head; 
